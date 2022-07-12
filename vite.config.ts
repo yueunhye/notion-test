@@ -27,5 +27,16 @@ export default defineConfig({
   },
   server: {
     port: 2999
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        //[name](이 사이에 hash가 없기때문에 문제가 dist에서 불러온 render에 해시가 사라짐).js 
+        entryFileNames: 'assets/[name].js',
+        //chunk: 조각
+        chunkFileNames: 'assets/[name].js',
+        assetFileNames: 'assets/[name].[ext]'
+      }
+    }
   }
 })
