@@ -7,6 +7,7 @@ import { Context } from 'netlify:edge'
 
 const APIKEY = Deno.env.get('APIKEY') as string
 const USERNAME = Deno.env.get('USERNAME') as string
+const PUBLIC_URL = Deno.env.get('PUBLIC_URL') as string
 
 export default async (request: Request, context: Context) => {
   const userAgent = request.headers.get('user-agent')
@@ -40,14 +41,14 @@ export default async (request: Request, context: Context) => {
           <meta property="og:title" content="${title}" />
           <meta property="og:description" content="${content}" />
           <meta property="og:image" content="${poster}" />
-          <meta property="og:url" content="https://melodious-pastelito-a53414.netlify.app/workspaces/${id}" />
+          <meta property="og:url" content="PUBLIC_URL/workspaces/${id}" />
           
           <meta property="twitter:card" content="summary" />
           <meta property="twitter:site" content="Notion Clone!" />
           <meta property="twitter:title" content="${title}" />
           <meta property="twitter:description" content="${content}" />
           <meta property="twitter:image" content="${poster}" />
-          <meta property="twitter:url" content="https://melodious-pastelito-a53414.netlify.app/workspaces/${id}" />
+          <meta property="twitter:url" content="PUBLIC_URL/workspaces/${id}" />
         </head>
         <body></body>
         </html>
