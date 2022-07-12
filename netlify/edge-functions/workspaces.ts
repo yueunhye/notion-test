@@ -40,14 +40,14 @@ export default async (request: Request, context: Context) => {
           <meta property="og:title" content="${title}" />
           <meta property="og:description" content="${content}" />
           <meta property="og:image" content="${poster}" />
-          <meta property="og:url" content="https://enchanting-bublanina-4dd5c6.netlify.app/workspaces/${id}" />
+          <meta property="og:url" content="https://melodious-pastelito-a53414.netlify.app/workspaces/${id}" />
           
           <meta property="twitter:card" content="summary" />
           <meta property="twitter:site" content="Notion Clone!" />
           <meta property="twitter:title" content="${title}" />
           <meta property="twitter:description" content="${content}" />
           <meta property="twitter:image" content="${poster}" />
-          <meta property="twitter:url" content="https://enchanting-bublanina-4dd5c6.netlify.app/workspaces/${id}" />
+          <meta property="twitter:url" content="https://melodious-pastelito-a53414.netlify.app/workspaces/${id}" />
         </head>
         <body></body>
         </html>

@@ -35,13 +35,13 @@ const handler: Handler = async event => {
           <meta property="og:title" content="${title}" />
           <meta property="og:description" content="${content}" />
           <meta property="og:image" content="${poster}" />
-          <meta property="og:url" content="https://enchanting-bublanina-4dd5c6.netlify.app/workspaces/${id}" />
+          <meta property="og:url" content="https://melodious-pastelito-a53414.netlify.app/workspaces/${id}" />
           <meta property="twitter:card" content="summary" />
           <meta property="twitter:site" content="Notion Clone!" />
           <meta property="twitter:title" content="${title}" />
           <meta property="twitter:description" content="${content}" />
           <meta property="twitter:image" content="${poster}" />
-          <meta property="twitter:url" content="https://enchanting-bublanina-4dd5c6.netlify.app/workspaces/${id}" />
+          <meta property="twitter:url" content="https://melodious-pastelito-a53414.netlify.app/workspaces/${id}" />
           <link rel="icon" href="https://heropy.blog/css/images/logo.png">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
           <link rel="preconnect" href="https://fonts.googleapis.com">
